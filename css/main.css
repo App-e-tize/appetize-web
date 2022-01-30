@@ -1,0 +1,105 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#nav img{
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    filter: grayscale(00%);
+}
+
+#nav img:hover{
+    filter: grayscale(60%);
+}
+
+#nav{
+    padding: 50px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+.breaker{
+    width: 80px;
+    height: 20px;
+    background: rgb(160, 21, 21);
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 35px;
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+    filter: grayscale(00%);
+}
+.breaker:hover{
+    filter: grayscale(70%);
+}
+
+a {
+    font-style: bold;
+    color:rgb(196, 104, 104);
+    -webkit-transition: all 0.4s;
+    transition: all 0.4s;
+}
+
+a:hover{
+    color:black;
+}
+
+.row{
+    margin: 0px;
+}
+
+p {
+    font-family: 'Lato', sans-serif;
+    font-size: large;
+}
+
+h1 {
+    font-family: 'Roboto', sans-serif;
+    color: rgb(100, 100, 100);
+}
+
+li a {
+    font-family: 'Roboto', sans-serif;
+}
+
+.back-lt {
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/lending_tracker.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 530px;
+}
+
+.back-bg1 {
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/bg1.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 530px;
+}
+
+.back-bg2 {
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/bg2.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 530px;
+}
+
+.back-gd {
+    background: -webkit-linear-gradient(rgba(23, 22, 23, 0.2), rgba(23, 22, 23, 0.5)), url(../img/go_driving.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 530px;
+}
+
+.grid_sec_info {
+    padding: 8em 6em 6em 6em;
+    background: #f5f5f5;
+}
+
+section {
+    padding-top: 4rem;
+}
+
+#_CONTACT {
+    color:#f5f5f5;
+}
